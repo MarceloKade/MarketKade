@@ -6,7 +6,7 @@ import { ProfileButton } from "./header/ProfileButton";
 
 export function Header() {
     return (
-        <div className="flex justify-center items-center h-[58.16px] mt-[27px] mr-[3px] ml-[3px]">
+        <div className="flex items-center h-[58.16px] mt-[27px] mr-[3px] ml-[3px]">
             <Logo />
             <HomeButton />
             <Input />
