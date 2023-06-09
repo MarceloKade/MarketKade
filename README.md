@@ -22,12 +22,12 @@ Através do desenvolvimento do MarketKade, busco aprofundar meu conhecimento em 
 
 ### Funcionalidades
 
-- [] Página inicial.
-- [] Catálogo de produtos.
-- [] Pesquisa de produtos.
-- [] Carrinho de compras.
-- [] Autenticação de usuário.
-- [] Integração com API de cadastro e login, dados de formulário, informações de produtos e de pagamento.
+- [ ] Página inicial.
+- [ ] Catálogo de produtos.
+- [ ] Pesquisa de produtos.
+- [ ] Carrinho de compras.
+- [ ] Autenticação de usuário.
+- [ ] Integração com API de cadastro e login, dados de formulário, informações de produtos e de pagamento.
 
 ### Tecnologias
 
