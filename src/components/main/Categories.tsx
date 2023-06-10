@@ -10,25 +10,25 @@ export function Categories() {
 
             <ul className="flex -flex-col items-center w-[1273.1px] h-[95.26px] ml-[90.25px] mt-[0.33px]">
                 <li className="flex flex-col justify-center w-[147.41px] h-[65.62px] mr-[20.06px]">
-                    <ButtonCategories title="Laptops" className="flex flex-col justify-center w-[129.36px] h-[43.12px] rounded-md pl-3 border-2 border-solid border-slate-950" />
+                    <ButtonCategories title="Laptops" className="flex flex-col justify-center w-[129.36px] h-[43.12px] rounded-md pl-3" />
                 </li>
                 <li className="flex flex-col justify-center w-[147.41px] h-[65.62px] mr-[20.06px]">
-                    <ButtonCategories title="Smartphone" className="flex flex-col justify-center w-[129.36px] h-[43.12px] rounded-md pl-3 border-2 border-solid border-slate-950" />
+                    <ButtonCategories title="Smartphone" className="flex flex-col justify-center w-[129.36px] h-[43.12px] rounded-md pl-3" />
                 </li>
                 <li className="flex flex-col justify-center w-[147.41px] h-[65.62px] mr-[20.06px]">
-                    <ButtonCategories title="Acessórios" className="flex flex-col justify-center w-[129.36px] h-[43.12px] rounded-md pl-3 border-2 border-solid border-slate-950" />
+                    <ButtonCategories title="Acessórios" className="flex flex-col justify-center w-[129.36px] h-[43.12px] rounded-md pl-3" />
                 </li>
                 <li className="flex flex-col justify-center w-[147.41px] h-[65.62px] mr-[20.06px]">
-                    <ButtonCategories title="TV" className="flex flex-col justify-center w-[129.36px] h-[43.12px] rounded-md pl-3 border-2 border-solid border-slate-950" />
+                    <ButtonCategories title="TV" className="flex flex-col justify-center w-[129.36px] h-[43.12px] rounded-md pl-3" />
                 </li>
                 <li className="flex flex-col justify-center w-[147.41px] h-[65.62px] mr-[20.06px]">
-                    <ButtonCategories title="Headphones" className="flex flex-col justify-center w-[129.36px] h-[43.12px] rounded-md pl-3 border-2 border-solid border-slate-950" />
+                    <ButtonCategories title="Headphones" className="flex flex-col justify-center w-[129.36px] h-[43.12px] rounded-md pl-3" />
                 </li>
                 <li className="flex flex-col justify-center w-[147.41px] h-[65.62px] mr-[20.06px]">
-                    <ButtonCategories title="Storage" className="flex flex-col justify-center w-[129.36px] h-[43.12px] rounded-md pl-3 border-2 border-solid border-slate-950" />
+                    <ButtonCategories title="Storage" className="flex flex-col justify-center w-[129.36px] h-[43.12px] rounded-md pl-3" />
                 </li>
                 <li className="flex flex-col justify-center w-[147.41px] h-[65.62px] mr-[20.06px]">
-                    <ButtonCategories title="Home Theater" className="flex flex-col justify-center w-[129.36px] h-[43.12px] rounded-md pl-3 border-2 border-solid border-slate-950" />
+                    <ButtonCategories title="Home Theater" className="flex flex-col justify-center w-[129.36px] h-[43.12px] rounded-md pl-3" />
                 </li>
             </ul>
         </>
