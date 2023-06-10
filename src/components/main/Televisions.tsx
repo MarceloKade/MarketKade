@@ -3,12 +3,12 @@
 import { ButtonSection } from "./ButtonSection";
 import { ButtonViewAll } from "./ButtonViewAll";
 
-export function Headphones() {
+export function Televisions() {
     return (
         <div>
             <div className="flex relative w-[1275px] h-[40.11px] mt-[28.92px] ml-[84px]">
                 <div>
-                    <ButtonSection title="Headphones" className="flex justify-center items-center relative w-[152.86px] h-[40.11px] rounded-md bg-[#F1F0F0]" />
+                    <ButtonSection title="Televisions" className="flex justify-center items-center relative w-[152.86px] h-[40.11px] rounded-md bg-[#F1F0F0]" />
                 </div>
                 <div className="absolute right-0">
                     <ButtonViewAll title="View All" className="flex justify-center items-center relative w-[96px] h-[40px] rounded-md bg-[#F1F0F0]" />
