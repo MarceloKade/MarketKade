@@ -18,12 +18,12 @@ No MarketKade, você pode explorar uma variedade de produtos fictícios, adicion
 
 ### Objetivo
 
-Através do desenvolvimento do MarketKade, busco aprofundar meu conhecimento em Next.js, demonstrando minha capacidade de criar uma aplicação interativa e funcional que simula uma experiência de compra online utilizando APIs para cadastro e login, dados do formulário, informações de produtos e de pegamento.
+Através do desenvolvimento do MarketKade, busco aprofundar meu conhecimento em Next.js, demonstrando minha capacidade de criar uma aplicação interativa e funcional que simula uma experiência de compra online utilizando APIs para cadastro e login, dados do formulário, informações de produtos e de pagamento.
 
 ### Funcionalidades
 
-- [ ] Página inicial.
-- [ ] Catálogo de produtos.
+- [x] Página inicial.
+- [x] Catálogo de produtos.
 - [ ] Pesquisa de produtos.
 - [ ] Carrinho de compras.
 - [ ] Autenticação de usuário.
