@@ -56,10 +56,7 @@ export function Banner({ selectedCategory }: { selectedCategory: string }) {
                         <div className="w-full h-[300px] flex justify-center gap-6 items-center">
                             <div className="w-[389.08px] h-[194.54px] mt-[48.32px] ml-[122.34px] z-10">
                                 <p className="font-semibold text-[45.12px]">
-                                    {product.title.replace(
-                                        /(Smartphone|Hit|Note|Xiaomi|Pocophone|Motorola|Samsung|\b(Edge)\b(?![\s\S]*\b\1\b))/g,
-                                        ''
-                                    ).trim().match(/^(\w+\s+\w+)/)?.[1]}
+                                    {product.title.replace(/(Smartphone|Xiaomi|Pocophone|De|Motorola|Samsung|\b(Edge)\b(?![\s\S]*\b\1\b))/g, '').trim().split(" ").slice(0, 2).join(" ")}
                                 </p>
                                 <p className="font-normal text-[20.06px]">
                                     {product.title.match(/(\b\d+\sGb\b).*?(\b\d+\sGb\sRam\b)/)?.slice(1).join(' ')}

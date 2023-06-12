@@ -8,7 +8,7 @@ import { Multimidia } from "./main/Multimidia";
 import { useState } from "react";
 
 export function Main() {
-    const [selectedCategory, setSelectedCategory] = useState("");
+    const [selectedCategory, setSelectedCategory] = useState("MLB1055");
 
     const handleCategoryChange = (categoryCode: string) => {
         setSelectedCategory(categoryCode);
