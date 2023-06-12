@@ -6,25 +6,21 @@ export function Footer() {
                     <h4 className="font-semibold text-[14px]">Conheça-nos</h4>
                     <a target="__blank" href="" className="transition-colors duration-1000 delay-100 hover:text-sky-500"><p className="mt-2 text-[12px]">Sobre nós</p></a>
                     <a target="__blank" href="" className="transition-colors duration-1000 delay-100 hover:text-sky-500"><p className="text-[12px]">Contate-nos</p></a>
-                    <a target="__blank" href="" className="transition-colors duration-1000 delay-100 hover:text-sky-500"><p className="text-[12px]">Ganhe MarketKade</p></a>
                 </div>
                 <div className="flex flex-col gap-1">
                     <h4 className="font-semibold text-[14px]">Política</h4>
                     <a target="__blank" href="" className="transition-colors duration-1000 delay-100 hover:text-sky-500"><p className="mt-2 text-[12px]">Segurança</p></a>
-                    <a target="__blank" href="" className="transition-colors duration-1000 delay-100 hover:text-sky-500"><p className="text-[12px]">Privacidade</p></a>
                     <a target="__blank" href="" className="transition-colors duration-1000 delay-100 hover:text-sky-500"><p className="text-[12px]">Termos de uso</p></a>
                 </div>
                 <div className="flex flex-col gap-1">
                     <h4 className="font-semibold text-[14px]">Ajuda</h4>
-                    <a target="__blank" href="" className="transition-colors duration-1000 delay-100 hover:text-sky-500"><p className="mt-2 text-[12px]">Membro</p></a>
-                    <a target="__blank" href="" className="transition-colors duration-1000 delay-100 hover:text-sky-500"><p className="text-[12px]">Pagamentos</p></a>
+                    <a target="__blank" href="" className="transition-colors duration-1000 delay-100 hover:text-sky-500"><p className="mt-2 text-[12px]">Pagamentos</p></a>
                     <a target="__blank" href="" className="transition-colors duration-1000 delay-100 hover:text-sky-500"><p className="text-[12px]">Conta</p></a>
                 </div>
                 <div className="flex flex-col gap-1">
                     <h4 className="font-semibold text-[14px]">Social</h4>
                     <a target="__blank" href="https://www.linkedin.com/in/marcelokade" className="transition-colors duration-1000 delay-100 hover:text-sky-500"><p className="mt-2 text-[12px]">LinkedIn</p></a>
                     <a target="__blank" href="https://github.com/MarceloKade" className="transition-colors duration-1000 delay-100 hover:text-sky-500"><p className="text-[12px]">GitHub</p></a>
-                    <a target="__blank" href="https://www.facebook.com/marcelo.cardosokade" className="transition-colors duration-1000 delay-100 hover:text-sky-500"><p className="text-[12px]">Facebook</p></a>
                 </div>
 
             </div>

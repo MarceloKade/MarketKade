@@ -1,36 +1,35 @@
-import { Accessories } from "./main/Accessories";
+'use client'
+import { Servicos } from "./main/Servicos";
 import { Categories } from "./main/Categories";
-import { Headphones } from "./main/Headphones";
-import { Laptops } from "./main/Laptops";
-import { ShopByBrands } from "./main/ShopByBrands";
-import { SideOfferProducts } from "./main/SideOfferProducts";
-import { Televisions } from "./main/Televisions";
-import { TodaysDeal } from "./main/TodaysDeal";
+import { Headphones } from "./main/Audio";
+import { Joias } from "./main/Joias";
+import { Banner } from "./main/Banner";
+import { Multimidia } from "./main/Multimidia";
+import { useState } from "react";
 
 export function Main() {
+    const [selectedCategory, setSelectedCategory] = useState("");
+
+    const handleCategoryChange = (categoryCode: string) => {
+        setSelectedCategory(categoryCode);
+    };
     return (
         <main>
             <section>
-                <Categories />
-                <SideOfferProducts />
+                <Categories onCategoryChange={handleCategoryChange} />
+                <Banner selectedCategory={selectedCategory} />
             </section>
             <section>
-                <TodaysDeal />
+                <Joias />
             </section>
             <section>
-                <Laptops />
-            </section>
-            <section>
-                <Televisions />
+                <Multimidia />
             </section>
             <section>
                 <Headphones />
             </section>
             <section>
-                <Accessories />
-            </section>
-            <section>
-                <ShopByBrands />
+                <Servicos />
             </section>
         </main>
     );
